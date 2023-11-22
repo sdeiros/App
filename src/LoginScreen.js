@@ -38,6 +38,7 @@ const LoginScreen = ({ navigation }) => {
             />
 
             <Text style={styles.title}>Novas Raízes</Text>
+            
             <TextInput
                 style={styles.email}
                 placeholder="E-mail"

@@ -18,7 +18,7 @@ export default function MySplashScreen({ navigation }) {
   }, [navigation]);
 
   if (!fontsLoaded) {
-    return null; // ou qualquer indicador de carregamento desejado
+    return null;
   }
 
   return (

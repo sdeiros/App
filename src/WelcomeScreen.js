@@ -124,8 +124,8 @@ const styles = StyleSheet.create({
     left: '5%',
   },
   logo: {
-    marginTop: -45,
-    left: 245,
+    marginTop: -46,
+    left: '56%',
     width: 35,
     height: 35,
   },
@@ -141,17 +141,19 @@ const styles = StyleSheet.create({
     textShadowRadius: 40,
   },
   brasao: {
+    position: 'absolute',
     color: '#FFF',
     left: '5%',
-    top: '42%',
+    top: '74%',
     fontSize: 24,
     fontFamily: 'Inter_700Bold',
   },
   buttonContainer: {
-    marginTop: '92%',
-    paddingHorizontal: '3%',
+    marginTop: '110%',
+    paddingHorizontal: '4%',
   },
   button: {
+    marginTop: '6%',
     borderRadius: 16,
     height: '36%',
     justifyContent: 'center',

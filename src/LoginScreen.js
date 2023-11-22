@@ -192,13 +192,14 @@ const styles = StyleSheet.create({
         fontFamily: 'Quando_400Regular',
     },
     button: {
+        position: 'relative',
         backgroundColor: '#000',
         borderRadius: 28,
         width: '100%', // Ajuste a largura do botão conforme necessário
         aspectRatio: 4.5, // Mantém uma proporção de 2:1 (largura:altura)
         borderWidth: 2,
         borderColor: '#FFF',
-        marginTop: '44%', // Ajuste a margem superior conforme necessário
+        marginTop: '50%',
         justifyContent: 'center',
         alignItems: 'center',
     },

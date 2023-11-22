@@ -91,7 +91,7 @@ const LoginScreen = ({ navigation }) => {
             perfil: require('./Imagens/Perfil/RuanRosa.png'),
           });
         
-        } else if (email === 'artur.rodrigues' && password === '1234') {
+        } else if (email === 'artur' && password === '1234') {
           // Usuário: Artur Rodrigues
           navigation.navigate('Main', {
             userName: 'Artur Rodrigues',

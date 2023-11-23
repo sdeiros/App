@@ -7,7 +7,7 @@ const MainScreen = ({ navigation, route }) => {
   const [fontsLoaded] = useFonts({
     Inter_100Thin, Inter_200ExtraLight, Inter_300Light, Inter_400Regular, Inter_500Medium, Inter_600SemiBold, Inter_700Bold, 
   });
-  const { userName, status, advogado, perfil } = route.params || {};
+  const { userName, status, advogado, perfil, gradientColors } = route.params || {};
 
   // Use useLayoutEffect para esconder o cabeçalho quando a tela é renderizada
   useLayoutEffect(() => {
@@ -26,7 +26,7 @@ const MainScreen = ({ navigation, route }) => {
       case 'Concluído':
         return ['#FDFFF9', '#A7F085', 'rgba(245, 211, 88, 0.80)'];
       case 'Em andamento':
-        return ['#FDFFF9', '#A7F085', 'rgba(245, 211, 88, 0.80)'];
+        return ['#FDFFF9', '#F3C76D', 'rgba(245, 211, 88, 0.80)'];
       case 'Req. Pendente':
         return ['#FDFFF9', '#85F0CA', 'rgba(88, 104, 245, 0.80)'];
       case 'Recusado':

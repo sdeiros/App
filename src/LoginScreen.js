@@ -26,6 +26,7 @@ const LoginScreen = ({ navigation }) => {
             userName: 'Sancrey Rodrigues',
             status: 'Concluído',
             advogado: 'Ruan Rosa',
+            gradientColors: ['#FDFFF9', '#A7F085', 'rgba(245, 211, 88, 0.80)'],
             perfil: require('./Imagens/Perfil/Sancrey.png'),
           });
 
@@ -34,6 +35,7 @@ const LoginScreen = ({ navigation }) => {
           navigation.navigate('Main', {
             userName: 'Antonio Henrique',
             status: 'Concluído',
+            gradientColors: ['#FDFFF9', '#A7F085', 'rgba(245, 211, 88, 0.80)'],
             advogado: 'Ruan Rosa',
             perfil: require('./Imagens/Perfil/AntonioHenrique.png'),
           });
@@ -43,6 +45,7 @@ const LoginScreen = ({ navigation }) => {
           navigation.navigate('Main', {
             userName: 'Fernando Moreira',
             status: 'Concluído',
+            gradientColors: ['#FDFFF9', '#A7F085', 'rgba(245, 211, 88, 0.80)'],
             advogado: 'Ruan Rosa',
             perfil: require('./Imagens/Perfil/FernandoMoreira.png'),
           });
@@ -52,6 +55,7 @@ const LoginScreen = ({ navigation }) => {
           navigation.navigate('Main', {
             userName: 'Patricia Amorim',
             status: 'Em andamento',
+            gradientColors: ['#FDFFF9', '#85F0CA', 'rgba(88, 104, 245, 0.80)'],
             perfil: require('./Imagens/Perfil/PatriciaAmorim.png'),
           });
         
@@ -59,8 +63,9 @@ const LoginScreen = ({ navigation }) => {
           // Usuário: Arnaldo de Carvalho
           navigation.navigate('Main', {
             userName: 'Arnaldo de Carvalho',
-            status: 'Pendente',
+            status: 'Recusado',
             advogado: 'Ruan Rosa',
+            gradientColors: ['#FDFFF9', '#ED7575', '#BC0A32'],
             perfil: require('./Imagens/Perfil/ArnaldoCarvalho.png'),
           });
         
@@ -79,6 +84,7 @@ const LoginScreen = ({ navigation }) => {
             userName: 'Davi Medeiros',
             status: 'Concluído',
             advogado: 'Ruan Rosa',
+            gradientColors: ['#FDFFF9', '#A7F085', 'rgba(245, 211, 88, 0.80)'],
             perfil: require('./Imagens/Perfil/DaviMedeiros.png'),
           });
         
@@ -87,6 +93,7 @@ const LoginScreen = ({ navigation }) => {
           navigation.navigate('Main', {
             userName: 'Ruan Rosa',
             status: 'Em andamento',
+            gradientColors: ['#FDFFF9', '#85F0CA', 'rgba(88, 104, 245, 0.80)'],
             advogado: 'Marlboro',
             perfil: require('./Imagens/Perfil/RuanRosa.png'),
           });

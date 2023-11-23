@@ -3,14 +3,13 @@ import { View, Text, StatusBar, StyleSheet, Image, TouchableOpacity } from 'reac
 
 import { useFonts, Quando_400Regular } from '@expo-google-fonts/quando';
 import { Inter_100Thin, Inter_200ExtraLight, Inter_300Light, Inter_400Regular, Inter_500Medium, Inter_600SemiBold, Inter_700Bold, Inter_800ExtraBold } from '@expo-google-fonts/inter';
-import { Shrikhand_400Regular } from '@expo-google-fonts/shrikhand';
 import { Video } from 'expo-av';
 import { useNavigation } from '@react-navigation/native';
 import { LinearGradient } from 'expo-linear-gradient';
 
 export default function WelcomeScreen({ navigation }) {
   const [fontsLoaded] = useFonts({
-    Quando_400Regular, Inter_100Thin, Inter_200ExtraLight, Inter_300Light, Inter_400Regular, Inter_500Medium, Inter_600SemiBold, Inter_700Bold, Shrikhand_400Regular
+    Quando_400Regular, Inter_100Thin, Inter_200ExtraLight, Inter_300Light, Inter_400Regular, Inter_500Medium, Inter_600SemiBold, Inter_700Bold
   });
 
   const [showMessage, setShowMessage] = useState(false);
@@ -125,7 +124,7 @@ const styles = StyleSheet.create({
   },
   logo: {
     marginTop: -46,
-    left: '56%',
+    left: '62%',
     width: 35,
     height: 35,
   },
@@ -149,7 +148,7 @@ const styles = StyleSheet.create({
     fontFamily: 'Inter_700Bold',
   },
   buttonContainer: {
-    marginTop: '110%',
+    marginTop: '100%',
     paddingHorizontal: '4%',
   },
   button: {

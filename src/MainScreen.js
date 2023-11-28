@@ -21,6 +21,11 @@ const MainScreen = ({ navigation, route }) => {
     navigation.navigate('Welcome');
   };
 
+  const handleChat = () => {
+    // Navegue de volta para a tela de boas-vindas ao pressionar o botão de logout
+    navigation.navigate('ChatBot');
+  };
+
   const getGradientColors = () => {
     switch (status) {
       case 'Concluído':
@@ -69,6 +74,13 @@ const MainScreen = ({ navigation, route }) => {
           <Text style={{ color: 'black' }}>Logout</Text>
         </View>
       </TouchableOpacity>
+
+      
+      <TouchableOpacity style={styles.n} onPress={handleChat}>
+        <View style={{ padding: 10, backgroundColor: 'white', borderRadius: 5, marginTop: 10 }}>
+          <Text style={{ color: 'black' }}>Chat</Text>
+        </View>
+      </TouchableOpacity>
     </View>
   );
 };
@@ -93,7 +105,7 @@ const styles = StyleSheet.create({
     top: '-16%'
   },
   bom: {
-    fontFamily: 'Inter_800ExtraBold',
+    fontFamily: 'Inter_700Bold',
     fontSize: 24,
     right: '30%',
     top: '-17%',
